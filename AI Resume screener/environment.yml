@@ -1,0 +1,31 @@
+name: aires
+channels: 
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12.5
+  - PyPDF2
+  - pandas
+  - numpy
+  - pytorch
+  - spacy
+  - nltk
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - tqdm
+  - pip
+  - pip:
+    - sentence-transformers
+    - transformers
+    - tokenizers
+    - langchain
+    - gensim
+    - faiss-cpu
+    - uvicorn
+    - fastapi
+    - pdfminer.six
+    - PyPDF2
+    - python-docx
+    - pdf2text
+
